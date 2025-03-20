@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css position property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .box1{
+               background-color: aqua;
+               /* attach nearest position ancestor */
+               position: absolute;
+               top: 8px;
+               left: 20px;
+            }
+         .box2{
+                background-color: rgb(255, 213, 0);
+                position: relative ;
+                top: 34px;
+                left: 50px;
+            }
+            .box3{
+                background-color: rgb(255, 0, 93);
+            }
+            .box4{
+                background-color:  rgb(0, 255, 38);
+            }
+            .box{
+                border: 2px solid black ;
+                height: 133px;
+                width: 80vw;
+                padding: 3px;
+                margin:3px;
+                
+            }
+
+            .parent{
+                margin: 34px;
+                padding: 43px;
+                border: 2px solid purple;
+                position: absolute;
+                  /* position: relative; */
+            /* Exception: transform, filter, or perspective properties can also make an element appear as positioned */
+            /* transform: translate(0); */
+            /* filter: invert(0); */
+            /* perspective: 0em; */
+            }
+           
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+    
+</body>
+</html>

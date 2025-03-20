@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform</title>
+    <style>
+        .box{
+            height: 50px;
+            width: 50px;
+            background-color: aqua;
+            border: 2px solid red;
+            /* also write in trun like 0.5trun */
+            /* transform: rotate(40deg);
+            transform: rotateX(40deg); */
+            /* transform: scale(1.6); */
+            /* transform: skew(34deg);
+            transform: skew(34deg) translateX(100%); */
+            /* use with rotate  */
+            transform-origin: 32% - 0%; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            border: 2px solid purple;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+              Box
+        </div>
+    </div>
+    
+</body>
+</html>

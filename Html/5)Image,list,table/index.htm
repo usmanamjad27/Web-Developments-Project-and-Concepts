@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Images </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- this is used to upload images in website -->
+    <img width="250" height="230" src="comsat.jpeg" alt="Comsat University Islamabad">
+    <br>
+    <!-- this is used to upload tables -->
+    <table>
+
+        <caption>Empolyee Details</caption>
+
+        <!-- for header and foter we use <thead></thead> -->
+        <thead>
+            <tr>
+                <th> Name </th>
+                <th> Designation</th>
+                <th> Salary </th>
+
+            </tr>
+        </thead>
+        <!-- inside table content we use <tbody></tbody> -->
+        <tbody>
+            <tr>
+                <td>Usman</td>
+                <td> Programmer</td>
+                <td> 120k</td>
+
+            </tr>
+
+            <tr>
+                <!-- to merge 2 cell we use colspan and rowspan like this -->
+                <td colspan="2">Usman Amjad</td>
+                <td rowspan="2">Java Programmer</td>
+
+            </tr>
+
+            <tr>
+                <!-- to merge 2 cell we use colspan and rowspan like this -->
+                <td colspan="2">Usman Amjad</td>
+
+
+            </tr>
+        </tbody>
+
+        <tfoot>
+
+            <tr>
+                <!-- group into footer like this -->
+                <td colspan="2">Usman Amjad</td>
+                <td rowspan="2">footer</td>
+            </tr>
+        </tfoot>
+
+    </table>
+    <!-- to write list we use below format (ordered ,unordered
+   and defination list mostly used first two types) -->
+    <ul>
+        <!-- unordered list and we change in SQuare,circle  by using type abbrevation  -->
+        <h2>Unordered List</h2>
+
+        <li>Ali</li>
+        <li>Ahmad</li>
+        <li>Orhan</li>
+    </ul>
+    <ol type="I" start="3">
+
+        <!-- ordered list The type attribute specifies the style of numbering. You have several options:
+
+          Uppercase Roman Numerals: Use type="I"
+          Lowercase Roman Numerals: Use type="i"
+          Arabic Numerals: Use type="1" (This is the default if the type attribute is not specified)
+          Lowercase Alphabetical Letters: Use type="a"
+          Uppercase Alphabetical Letters: Use type="A"-->
+        <h2>Ordered List</h2>
+
+        <li>Ali</li>
+        <li>Ahmad</li>
+        <li>Orhan</li>
+    </ol>
+    <dl>
+        <!-- Defination List -->
+        <h2>Defination List</h2>
+
+        <h3>HTML:</h3>
+        <dd>
+            HTML (HyperText Markup Language) is the standard markup
+            language used to create and design the structure of web
+            pages and web applications. It provides a system for
+            embedding and organizing content like text, images,
+            links, and multimedia in a hierarchical structure.
+            HTML uses a series of elements (tags) enclosed in
+            angle brackets to define
+            the components and their roles within a webpage.
+
+            This simple code defines the structure of a basic webpage.
+
+        </dd>
+        <!-- <dt>CSS</dt> or heading -->
+        <h3>CSS:</h3>
+        <dd>
+            CSS (Cascading Style Sheets) is a stylesheet language
+            used to define the visual presentation and formatting
+            of HTML elements on a web page. It separates the
+            content (HTML) from the design, allowing developers
+            to control the layout, colors, fonts, spacing, and
+            responsiveness of a website.
+            <h3>KEY FEATURES:</h3>
+            <ol>
+                <li>Cascading rules</li>
+                <li>Selectors and properties</li>
+                <li>Responsive Design</li>
+            </ol>
+        </dd>
+    </dl>
+
+</body>
+
+</html>

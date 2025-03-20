@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Font,Color & Text properties</title>
+    <style>
+        /* if we have no font then we get from google font and then 
+        this code of font paste there and also if doesn't have url 
+        then paste link above outside the style */
+         @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
+
+       p{
+        font-family: "Smooch Sans", serif;
+         font-optical-sizing: auto;
+          font-weight: 400;
+           font-style: normal;
+           line-height: 4; 
+            font-style: italic;
+            font-weight: 200; /* used for bold*/
+            text-decoration: underline; /* used for dash underline ,doble etc*/ 
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        h1{
+            text-transform: uppercase ;
+            
+            text-decoration: underline;
+            text-decoration-color: rgb(147, 244, 255);
+            text-decoration-style: wavy;
+            text-decoration-thickness: 7px;
+            text-indent:45px ; 
+            text-overflow: ellipsis;
+            text-align:center;
+           
+        }
+        .lorem{
+            border: 2px solid red;
+            width: 145px;
+            word-break: break-all;
+            /* text-overflow: ellipsis;
+            overflow: hidden; */
+        }
+    </style>
+</head>
+<body>
+
+    <!--  https://codepen.io/web-dot-dev/pen/ZELGraM  -->
+    /* https://codepen.io/web-dot-dev/pen/ZELGraM */
+    
+    <br>
+    Above link search on google
+    and this tell us how the font family look like
+    
+    <div>
+        <h1>Fonts</h1>
+        <p>This is video on font</p>
+    </div>
+
+    <p class="lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint quae deleniti amet accusamus hic maiores nostrum cupiditate quas facere voluptatibus consectetur tempore ea consequatur, magni nulla alias? Non et odio numquam aspernatur dignissimos tempora, deserunt enim dolores libero. Modi alias harum non nisi veniam cum atque ducimus excepturi ratione dolorem.</p>
+    
+</body>
+</html>
